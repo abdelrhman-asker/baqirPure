@@ -1,0 +1,441 @@
+* {
+  box-sizing: border-box;
+  font-family: Noor;
+}
+@font-face {
+  font-family:Noor;
+  src: url(/Fonts/NootFont.ttf);
+}
+@font-face {
+  font-family:Almarai;
+  src: url(/Fonts/Almarai.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  background-image: url(./photos/Rotatedpic.png), url(./photos/Rotatedpic.png) !important;
+    background-repeat: no-repeat;
+    background-position: -0% , 100% ;
+}
+.MainNavAll {
+  background-image: url(./photos/الشكل.png);
+  padding-bottom: 150px !important;
+  background-repeat: no-repeat;
+  background-position: 40%;
+  width: 100vw;
+  overflow: hidden;
+  
+}
+.navbarsearchinput {
+  direction: rtl;
+  width: 150px;
+  height: 35px;
+  border-radius: 15px !important;
+  font-size: 12px;
+
+}
+.input-group-text {
+  background-color: transparent !important;
+  font-size: 12px;
+
+  
+}
+.input-group {
+  position: relative;
+}
+.fa-search {
+  position: absolute;
+  left: 25px;
+  opacity: 0.7;
+  
+}
+.MainUListNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+.MainUListNav a {
+  text-decoration: none;
+  color: #707070;
+  text-align: center;
+  font-size: 12px;
+}
+.MainUListNav li {
+  width: fit-content;
+  text-align: center;
+
+}
+
+
+/* start of green nav */
+.MainGreenNav {
+  background-color: #1d733f58;
+  padding-top: 30px ;
+  height: fit-content;
+}
+
+.GreennavTopLinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.GreennavTopLinks button  {
+  color: #707070;
+  box-shadow: 0;
+  border: 0;
+  font-size: 13px;
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: nowrap;
+}
+.GreennavTopLinks div  {
+ width: fit-content;
+}
+.GreennavTopLinks button:active  {
+  color: #707070;
+  box-shadow: 0;
+  border: 0;
+}
+.GreennavTopLinks a  {
+  text-decoration: none;
+  color: #707070;
+  font-size: 14px;
+  
+
+}
+.dropdown-item {
+  width: 100%;
+}
+.LastGreenRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.LastNavParaDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LastNavPara {
+  padding: 20px 20px;
+  background-color: #d9751773;
+  border-radius: 50px;
+  width: fit-content;
+  color: white;
+  text-align: center;
+  margin: 0% !important;
+  font-size: 24px;
+  font-family: Almarai;
+ 
+}
+.CanvasBotton {
+  display: none;
+}
+.CanvasBotton button {
+  color: #707070;
+}
+.dropdown-menu {
+  width: fit-content;
+  direction: rtl;
+  background-color: #f0f0f0 !important;
+  text-align: start;
+}
+.dropdown-menu a:active {
+  background-color: #f0f0f0 !important;
+  color: #707070;
+}
+.MainDropOnCanvas {
+  display: flex !important;
+  flex-direction: column !important;
+}
+@media screen and (min-width:1px ) and (max-width:991.5px){
+  .LastNavPara {
+    font-size: 10px;
+    padding: 10px 10px;
+
+}
+.GreennavTopLinks {
+  display: none;
+}
+.CanvasBotton{
+  display: block;
+}
+.input-group {
+  display: none;
+}
+
+
+}  
+
+/* end of green nav */
+
+/* start of footer */
+.MainFooterDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0 10px;
+  background-color: #1d733f58;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.MainFirstFooterDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  direction: rtl;
+}
+.MainFirstFooterDiv h3 {
+  font-size: 22px;
+}
+.IntoLinksWithImage{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+.IntoLinksWithImage a{
+  text-decoration: none;
+  color: #707070;
+  font-size: 14px;
+}
+.LastFooterPara h4 {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  direction: rtl;
+  color: black;
+  opacity: 0.3;
+}
+@media screen and (min-width:1px) and (max-width:576px) {
+  /* .ColFooterCont h4{
+      font-size: 12px;
+  }
+  .FirstFooterCont a {
+      font-size: 8px;
+  } */
+  .LastFooterPara h4 {
+      font-size: 10px;
+  }
+  .MainFirstFooterDiv {
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+      justify-content: center;
+  }
+}
+/* End of footer */
+
+/* Start Home Main Data */
+/* Start of first section */
+.MainDataFirstDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  direction: rtl;
+  padding: 0px 0 70px;
+}
+.MainHomeRowFDiv  {
+  display: flex ;
+  justify-content: start;
+  align-items: flex-end;
+  gap: 15px;
+  flex-direction: row ;
+  margin-bottom: 20px;
+}
+.MainHomeRowFDiv h3  {
+  margin: 0 !important;
+  font-family: Almarai;
+  font-size: 30px;
+  color: #707070;
+}
+.MainDataFirstDiv h4 {
+  color: #707070;
+  font-size: 22px;
+  line-height: 35px;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+.MainHomeRowSDiv {
+  text-align: center;
+}
+.MainDataFirstDiv a {
+  background-color: #d97417;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+/* End of first section */
+
+/* start of second section */
+
+  
+  .MainDataSecDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #7070706b;
+    margin-bottom: 100px;
+    padding: 100px 0;
+    flex-wrap: wrap;
+  }
+  .StepsMainCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
+  .MainDataSecDiv h5 {
+    font-size: 40px;
+    color: #414141;
+    text-align: center;
+
+  }
+.MainDataSecDiv a {
+    padding: 10px 15px;
+    color: white;
+    background-color: #D97417;
+    text-decoration: none;
+    border-radius: 15px;
+    
+}
+
+.MainDataThirdDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.MainDataThirdDiv img {
+  border-radius: 25px;
+}
+.ThirdSecAllLeft {
+  background-color: #e1fcf57f;
+  width: fit-content;
+  border-radius: 30px;
+  padding: 20px 30px;
+}
+.ThirsdSectionLeft {
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+.ThirsdSectionLeft h3 {
+  font-size: 30px;
+}
+.ThirsdSectionLeft h4 {
+  font-size: 22px;
+  line-height: 40px;
+}
+.LastLinkMainHome {
+  text-decoration:underline;
+    color: #D97417;
+    margin-right: 20px;
+    direction: rtl;
+}
+.LastLinkMainHome:hover {
+  text-decoration:underline;
+  color: #D97417;
+}
+.MainHomeHorzPics{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media screen and (min-width:1px) and (max-width:768px) { 
+  .ThirsdSectionLeft h3 {
+      font-size: 10px;
+  }
+  .ThirsdSectionLeft h4 {
+      font-size: 8px;
+      line-height: 30px;
+  }
+  
+
+
+}
+@media screen and (min-width:1px) and (max-width:576px) {
+  .ThirsdSectionLeft h3 {
+      font-size: 10px;
+  }
+  .ThirsdSectionLeft h4 {
+      font-size: 8px;
+      line-height: 20px;
+  }
+  .MainDataSecDiv h5 {
+    font-size: 28px;
+    color: #414141;
+
+  }
+  .MainDataFirstDiv h4 {
+    font-size: 10px;
+  }
+}
+/* End of second section */
+
+/* End Home Main Data */
+
+/* Start of  MainHomeExp section */
+.MainHomeExpDiv {
+  padding-bottom: 100px;
+}
+.MainHomeExpDiv .MainHomeRowFDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.MainHomeExpDiv h4 {
+  color: #707070;
+  font-size: 22px ;
+  line-height: 40px;
+  text-align: center;
+  direction: rtl;
+
+}
+.MainHomeExpDiv  span {
+  justify-content: center;
+  font-family: Almarai;
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 22px;
+  color: #707070;
+  direction: rtl;
+
+}
+.MainHomeExParas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+}
+/* End of  MainHomeExp section */
