@@ -403,13 +403,15 @@ body {
 
 /* Start of  MainHomeExp section */
 .MainHomeExpDiv {
-  padding-bottom: 100px;
+  width: 100vw;
+  overflow-x: hidden;
 }
 .MainHomeExpDiv .MainHomeRowFDiv {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  
   
 }
 .MainHomeExpDiv h4 {
@@ -435,7 +437,109 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
-
+  gap: 30px;
+  margin-bottom: 150px;
 }
 /* End of  MainHomeExp section */
+
+/* Start of  ReqSteps Section */
+
+.ReqStepsRowsMain {
+  position: relative;
+  background-color: #BCD6C7;
+  border-radius: 15px;
+  direction: rtl;
+  padding: 25px 0px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.ReqStepsRowsMainDiv {
+  margin: 100px 0;
+}
+.ReqStepsRowsMain h3 {
+  font-size: 20px;
+  color: #707070;
+  line-height: 40px;
+
+}
+.ReqStepsSpanMain {
+  padding: 1% 2.5%;
+  background-color: #707070;
+  color: white !important;
+  font-size: 30px;
+  position: absolute;
+  top: -35px;
+  left: 46%;
+  border-radius: 50%;
+}
+@media screen and (min-width:1px) and (max-width:576px) {
+  .ReqStepsRowsMain h3 {
+    font-size: 12px;
+  
+  }
+  .MainHomeRowFDiv h3  {
+    font-size: 22px;
+  }
+  .MainNavAll {
+    padding-bottom: 50px !important;
+    
+  }
+  .ReqStepsSpanMain {
+    padding: 1% 4%;
+  }
+}
+/* End of  ReqSteps Section */
+/* start AboutBaqir section */
+.AbuutBaqirShkBaqer{
+  height:402px !important;
+  border-radius: 25px;
+} 
+.AboutBaqirTextAImg {
+  width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap !important;
+  padding-top: 50px;
+  margin: auto;
+}
+@media screen and (min-width:1px) and (max-width:940px) { 
+  .AbuutBaqirShkBaqer{
+      width:300px !important;
+      height:350px !important;
+      border-radius: 25px;
+  }
+  .MainHomeExParas h4 {
+      font-size: 18px;
+  }
+  .MainHomeExParas  h4 {
+      font-size: 18px;
+  }
+  .AbuutBaqirShkBaqerDiv {
+      align-self: flex-start;
+  }
+
+
+
+}
+@media screen and (min-width:1px) and (max-width:510px) {
+  .MainHomeExParas  span {
+      font-size: 10px;
+  }
+  .MainHomeExParas  h4 {
+      font-size: 10px;
+  }
+  .AbuutBaqirShkBaqer{
+      width:140px !important;
+      height:210px !important;
+      border-radius: 25px;
+  }
+}
+/* End AboutBaqir section */
